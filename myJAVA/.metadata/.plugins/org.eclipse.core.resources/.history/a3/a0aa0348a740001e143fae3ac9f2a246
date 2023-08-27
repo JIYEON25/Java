@@ -1,0 +1,12 @@
+package jy.java.exam07;
+
+/**
+ * 성적표 - 여러사람에 대한, 과목명과 응시과목수에 대해서 자유도를 부여
+ * 실행 : java ArrayEx07 사람수
+ * ex) java ArrayEx07 3
+ */
+public class ArrayEx07 {
+	public static void main(String[] args) {
+		
+	}
+}

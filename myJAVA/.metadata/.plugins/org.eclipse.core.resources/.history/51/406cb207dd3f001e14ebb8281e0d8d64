@@ -1,0 +1,9 @@
+package jy.java.exam02;
+/**
+ * 삼각형의 넓이를 구하는 예제
+ */
+public class inputExam {
+	public static void main(String[] args) {
+		System.out.print("밑변 = ");
+	}
+}

@@ -1,0 +1,15 @@
+package jy.java.exam01;
+
+import java.io.IOException;
+
+public class inputTest {
+	public static void main(String[] args) throws IOException {
+		System.out.print("단자리 입력 테스트 : ");
+		int number = System.in.read();
+		System.out.println("입력내용 : " + number);
+		
+		System.out.print("문자 입력 테스트 : ");
+		char number2 = (char)System.in.read();
+		System.out.println("입력내용 : " + number2);
+	}
+}

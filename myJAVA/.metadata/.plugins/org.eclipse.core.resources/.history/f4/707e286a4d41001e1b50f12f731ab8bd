@@ -1,0 +1,19 @@
+package jy.java.exam02;
+
+class Salary {
+	private int pay;
+
+	public int getPay() {
+		return pay;
+	}
+
+	public void setPay(int pay) {
+		this.pay = pay;
+	}
+	
+}
+
+public class SalaryEx {
+	
+	
+}

@@ -1,0 +1,9 @@
+package jy.java.exam03;
+
+public class MethodExOne {
+	MethodEx ref = new MethodEx();
+	int x = 10;
+	int y = 10;
+	
+	
+}

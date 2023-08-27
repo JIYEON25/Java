@@ -1,0 +1,28 @@
+package jy.java.exam03;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/**
+ * 성적표 - 한사람에 대해서, 단 응시과목에 대해서 자유도를 부여
+ * 실행: java ArrayEx03 과목1 과목2 ... 과목N
+ */
+public class ArrayEx03 {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		System.out.println("학생이름 = ");
+		String name = br.readLine();
+		
+		String[] subject = new String[args.length];
+		// 과목수 = subject.length = args.length
+		for(int i=0; i<subject.length; i++) {
+			subject[i] = args[i]; 	// 과목명을 옮기기
+		}
+		
+		
+		
+	
+	}
+}

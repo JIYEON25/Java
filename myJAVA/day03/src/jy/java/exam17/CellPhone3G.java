@@ -1,0 +1,21 @@
+package jy.java.exam17;
+
+class CellPhone {
+	public void call() {
+		System.out.println("음성통화를 합니다.");
+	}
+}
+
+public class CellPhone3G extends CellPhone{
+	
+	@Override
+	public void call() {
+		System.out.println("영상통화를 합니다.");
+	}
+	
+	public static void main(String[] args) {
+		CellPhone3G phone = new CellPhone3G();
+		phone.call();
+	}
+	
+}

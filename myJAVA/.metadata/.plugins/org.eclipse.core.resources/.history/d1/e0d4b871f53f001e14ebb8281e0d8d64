@@ -1,0 +1,10 @@
+package jy.java.exam07;
+
+public class LottoGame02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

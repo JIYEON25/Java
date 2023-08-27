@@ -1,0 +1,61 @@
+package jy.java.Exam14;
+
+import java.awt.Frame;
+import java.awt.HeadlessException;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+
+public class MyFrame extends Frame implements WindowListener {
+	
+	private static final long serialVersionUID = 1L;
+	
+	public MyFrame() throws HeadlessException {
+		super("Test");
+		addWindowListener(this);
+		setSize(300,200);
+		setVisible(true);
+	}
+
+	@Override
+	public void windowClosing(WindowEvent e) {
+		System.out.println("종료");
+		System.exit(0);
+	}
+	
+	@Override
+	public void windowOpened(WindowEvent e) {
+
+	}
+
+	@Override
+	public void windowClosed(WindowEvent e) {
+
+	}
+
+	@Override
+	public void windowIconified(WindowEvent e) {
+
+	}
+
+	@Override
+	public void windowDeiconified(WindowEvent e) {
+
+	}
+
+	@Override
+	public void windowActivated(WindowEvent e) {
+
+	}
+
+	@Override
+	public void windowDeactivated(WindowEvent e) {
+
+	}
+	
+	public static void main(String[] args) {
+		new MyFrame();
+	}
+	
+	
+	
+}

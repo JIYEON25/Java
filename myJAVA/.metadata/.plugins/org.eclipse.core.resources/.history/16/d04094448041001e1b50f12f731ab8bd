@@ -1,0 +1,14 @@
+package jy.java.exam21;
+
+class Super {
+	public Super() {
+		System.out.println("상위클래스의 기본생성자.");
+	}
+	public Super(int x) {
+		
+	}
+}
+
+public class SuperEx02 {
+
+}

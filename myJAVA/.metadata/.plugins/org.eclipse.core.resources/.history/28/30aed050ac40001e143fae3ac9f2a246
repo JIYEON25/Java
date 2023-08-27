@@ -1,0 +1,10 @@
+package jy.java.exam08;
+
+public class ArrayEx08 {
+	public static void main(String[] args) {
+		String[] str = {"JAVA", "HTML", "JSP", "Spring"};
+		
+		
+		
+	}
+}

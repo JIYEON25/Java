@@ -1,0 +1,7 @@
+package jy.java.exam03;
+
+public class MethodEx {
+	public int sum(int x, int y) {
+		
+	}
+}

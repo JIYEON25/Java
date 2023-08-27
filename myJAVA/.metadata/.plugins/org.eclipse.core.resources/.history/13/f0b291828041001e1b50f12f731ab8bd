@@ -1,0 +1,20 @@
+package jy.java.exam22;
+
+public class PointEx {
+	private int x;
+	private int y;
+	
+	public PointEx() { 
+		
+	}
+	
+	public PointEx(int x) { 
+		this.x = x;
+	}
+	
+	public PointEx() { 
+		
+	}
+
+	
+}

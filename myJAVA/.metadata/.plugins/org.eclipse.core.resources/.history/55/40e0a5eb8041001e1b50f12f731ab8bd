@@ -1,0 +1,7 @@
+package jy.java.exam22;
+
+public class CircleEx extends PointEx {
+	
+	
+	
+}

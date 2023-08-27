@@ -1,0 +1,30 @@
+package jy.java.Exam01;
+
+class Super {
+	void aaa() {
+		System.out.println("aaa");
+	}
+	void bbb() {
+		System.out.println("bbb");
+	}
+}
+
+class Sub extends Super {
+	@Override
+	void aaa() {
+		System.out.println("override method");
+	}
+	void ccc() {
+		System.out.println("ccc");
+	}
+}
+
+public class PolimorphismTest {
+	public static void main(String[] args) {
+		Sub s = new Sub();
+		s.aaa();
+		s.bbb();
+		
+		
+	}
+}

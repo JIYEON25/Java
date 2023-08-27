@@ -1,0 +1,5 @@
+package jy.java.exam16;
+
+public class MP3Phone extends Cellphone {
+
+}

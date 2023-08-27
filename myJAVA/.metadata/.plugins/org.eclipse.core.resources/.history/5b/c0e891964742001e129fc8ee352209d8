@@ -1,0 +1,21 @@
+package jy.java.Exam16;
+
+import java.awt.Frame;
+
+public class MyFrame extends Frame {
+	
+	private static final long serialVersionUID = 1L;
+	
+	public MyFrame() {
+		super("익명이너클래스");
+		addWindwListener();
+		setSize(300,200);
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new MyFrame();
+	}
+	
+	
+}

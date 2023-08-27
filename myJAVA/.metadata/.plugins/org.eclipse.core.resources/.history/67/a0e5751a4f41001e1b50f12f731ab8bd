@@ -1,0 +1,16 @@
+package jy.java.exam03;
+
+public class MethodExOne {
+	public static void main(String[] args) {
+		MethodEx ref = new MethodEx();
+		int x = 10;
+		int y = 10;
+		
+		
+		
+	}
+	
+	
+	
+	
+}

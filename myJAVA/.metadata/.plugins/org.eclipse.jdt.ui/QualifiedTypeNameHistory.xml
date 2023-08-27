@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="jy.java.exam04.MethodExTwo"/>
+    <fullyQualifiedTypeName name="jy.java.exam05.MethodExThree"/>
+    <fullyQualifiedTypeName name="javax.swing.tree.VariableHeightLayoutCache"/>
+    <fullyQualifiedTypeName name="jy.java.exam06.ValueParameter"/>
+    <fullyQualifiedTypeName name="jy.java.exam07.ReferenceParameter"/>
+    <fullyQualifiedTypeName name="jy.java.exam09.OverloadingEx01"/>
+    <fullyQualifiedTypeName name="jy.java.exam17.CellPhone3G"/>
+    <fullyQualifiedTypeName name="jy.java.exam19.HashcodeEx"/>
+    <fullyQualifiedTypeName name="jy.java.Exam02.Hospital"/>
+    <fullyQualifiedTypeName name="jy.java.Exam06.InterEx02"/>
+    <fullyQualifiedTypeName name="jy.java.Exam07.BClass"/>
+    <fullyQualifiedTypeName name="jy.java.Exam08.OuterEx.InnerEx"/>
+    <fullyQualifiedTypeName name="jy.java.Exam09.MemberInner.Inner"/>
+    <fullyQualifiedTypeName name="java.awt.event.WindowAdapter"/>
+    <fullyQualifiedTypeName name="jy.java.Exam11.StaticInner"/>
+    <fullyQualifiedTypeName name="jy.java.Exam11.StaticInner.Inner"/>
+    <fullyQualifiedTypeName name="jy.java.Exam12.OuterEx.InnerEx"/>
+    <fullyQualifiedTypeName name="jy.java.Exam10.LocalInner"/>
+</qualifiedTypeNameHistroy>

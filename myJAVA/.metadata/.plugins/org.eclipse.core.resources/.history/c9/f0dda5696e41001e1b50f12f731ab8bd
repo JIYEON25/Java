@@ -1,0 +1,15 @@
+package jy.java.exam14;
+
+public class StaticExam {
+	private int x;
+	private static int y;
+	
+	public StaticExam() {
+		super();
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("x = " + x);
+	}
+	
+}

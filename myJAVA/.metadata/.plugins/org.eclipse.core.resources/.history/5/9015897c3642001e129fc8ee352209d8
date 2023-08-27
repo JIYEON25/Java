@@ -1,0 +1,9 @@
+package jy.java.Exam05;
+
+abstract class Unit {
+	int x, y;
+}
+
+public class UseGame {
+
+}

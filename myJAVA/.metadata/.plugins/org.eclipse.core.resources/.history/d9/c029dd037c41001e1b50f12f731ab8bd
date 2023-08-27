@@ -1,0 +1,23 @@
+package jy.java.exam18;
+
+public class ObjectEx {
+	private String name;
+	private int price;
+	
+	
+	
+	
+	
+	public ObjectEx(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
+
+
+
+
+
+	public static void main(String[] args) {
+		
+	}
+}

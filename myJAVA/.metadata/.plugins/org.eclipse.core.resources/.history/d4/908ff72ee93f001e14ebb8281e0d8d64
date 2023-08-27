@@ -1,0 +1,21 @@
+package jy.java.exam06;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class RockGame {
+	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int money = 1000;
+		
+		while(true) {
+			System.out.println("1. 주먹");
+			System.out.println("2. 가위");
+			System.out.println("3. 보자기");
+			System.out.println("0. 게임종료");
+			System.out.print("메뉴 선택 : ");
+		}
+		
+	}
+}

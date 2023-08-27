@@ -1,0 +1,15 @@
+package jy.java.exam23;
+
+public class NewAccount extends Account {
+	// member
+	private String pass;
+	// Constructor
+	public NewAccount() { }
+	public NewAccount(String name, String pw) {
+		super(name);
+		this.pw = pw;
+	}
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+package jy.java.Exam13;
+
+import java.awt.Frame;
+
+class MyEvent extends WindeowAdapter {
+	
+}
+
+
+public class MyFrameEx {
+	public static void main(String[] args) {
+		Frame myFrame = new Frame();
+		myFrame.setSize(300,200);
+		myFrame.setVisible(true);
+	}
+}

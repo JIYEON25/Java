@@ -1,0 +1,36 @@
+package jy.java.exam14;
+
+public class StaticExam {
+	private int x;
+	private static int y;
+	
+	static {		// static 초기화 구문
+		y = 10;
+	}
+	
+	public StaticExam() {
+		x = 10; y = 5;
+	}
+	
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {			// static 생략가능(멤버)
+		return y;
+	}
+
+	public static void main(String[] args) {
+		System.out.println("y = " + y);
+		System.out.println("y = " + StaticExam.y);
+		StaticExam se = new StaticExam();
+		System.out.println("x = " + se.getX());
+		System.out.println("y = " + se.getY());
+		System.out.println("y = " + y);
+		System.out.println("y = " + StaticExam.y);
+		
+		
+		
+	}
+	
+}

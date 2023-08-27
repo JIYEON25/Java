@@ -1,0 +1,9 @@
+package jy.java.exam06;
+
+public class ArrayEx06 {
+	public static void main(String[] args) {
+		int[][] x = new int[3][];
+		
+		
+	}
+}

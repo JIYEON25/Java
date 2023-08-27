@@ -1,0 +1,12 @@
+package jy.java.exam01;
+
+class MyClass{ //extends Object
+	//String toString()
+}
+
+public class MyTest {
+	public static void main(String[] args) {
+		MyClass mc = new MyClass();
+		System.out.println(mc);
+	}
+}

@@ -1,0 +1,8 @@
+package jy.java.Exam02;
+
+public class Hospital {
+	public void inject(Animal animal) {
+		System.out.println(animal.getName() + "을(를) 치료합니다.");
+		System.out.println(animal.scream());
+	}
+}

@@ -1,0 +1,16 @@
+package jy.java.Exam10;
+
+public class LocalInner {
+	int a = 100;
+	public void innerTest(int k) {
+		int b = 200;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}

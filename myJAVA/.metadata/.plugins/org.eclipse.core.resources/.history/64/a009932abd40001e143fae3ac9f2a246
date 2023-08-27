@@ -1,0 +1,10 @@
+package jy.java.exam09;
+
+public class Sample {
+	// 멤버필드
+	int x;
+	int y;
+	// 생성자 - defualt 생성자
+	// public Sample(){ }
+	// 메서드
+}

@@ -1,0 +1,11 @@
+package jy.java.Exam01;
+
+class Super {
+	void aaa() {
+		System.out.println("aaa");
+	}
+}
+
+public class PolimorphismTest {
+	
+}

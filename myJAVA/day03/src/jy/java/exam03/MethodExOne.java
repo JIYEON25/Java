@@ -1,0 +1,19 @@
+package jy.java.exam03;
+
+public class MethodExOne {
+	public static void main(String[] args) {
+		MethodEx ref = new MethodEx();
+		int x = 10;
+		int y = 10;
+		System.out.println("더한 값 = " + ref.sum(x, y));
+		System.out.println("뺀 값 = " + ref.sub(x, y));
+		System.out.println("곱한 값 = " + ref.multi(x, y));
+		System.out.println("나눈 값 = " + ref.divi(x, y));
+		
+		
+	}
+	
+	
+	
+	
+}

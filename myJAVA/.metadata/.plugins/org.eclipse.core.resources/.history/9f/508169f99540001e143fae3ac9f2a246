@@ -1,0 +1,12 @@
+package jy.java.exam05;
+
+/**
+ * 성적표 - 여러사람에 대한, 단 응시과목에 대한 자유도를 부여
+ * 실행 java ArrayEx05 응시한사람수 과목1 과목2 ... 과목N
+ * ex) java ArrayEx05 4 국어 영어 수학
+ */
+public class ArrayEx05 {
+	public static void main(String[] args) {
+		
+	}
+}

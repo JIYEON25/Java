@@ -1,0 +1,24 @@
+package jy.java.exam14;
+
+public class StaticExam {
+	private int x;
+	private static int y;
+	
+	static {		// static 초기화 구문
+		y = 10;
+	}
+	
+	public StaticExam() {
+		super();
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		System.out.println("x = " + x);
+		System.out.println("y = " + y);
+		System.out.println("y = " + StaticExam.y);
+		
+	}
+	
+}

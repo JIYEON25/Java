@@ -1,0 +1,58 @@
+package jy.java.exam05;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/**
+ * 성적표 - 여러사람에 대한, 단 응시과목에 대한 자유도를 부여
+ * 실행 java ArrayEx05 응시한사람수 과목1 과목2 ... 과목N
+ * ex) java ArrayEx05 4 국어 영어 수학
+ */
+public class ArrayEx05 {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int human = Integer.parseInt(args[0]); //사람수
+		String[] name = new String[human];
+		String[] subject = new String[args.length-1];
+		// 과목수 = subject.length = args.length-1
+		
+		for(int i=0; i<subject.length; i++) {
+			subject[i] = args[i+1];
+		}
+		int[][] jumsu = new int[human][subject.length+1]; // 총점
+		float[] avg = new float[human];
+		char[] grade = new char[human];
+		int[] rank = new int[human];
+		
+		for(int i=0; i<human; i++) {
+			System.out.print(i + 1 + "번째 학생이름 = ");
+			name[i] = br.readLine();
+			
+			System.out.println();
+			System.out.println(name[i] + "학생이 과목별 점수 입력");
+			for(int j=0; j<subject.length; j++) {
+				System.out.print(subject[j] + " 점수 = ");
+				jumsu[i][j] = Integer.parseInt(br.readLine());
+				jumsu[i][jumsu[i].length-1] += jumsu[i][j]; // 총점계산
+			}
+			
+			avg[i]= jumsu[i][jumsu[i].length-1] / (float)subject.length;
+			avg[i] = (int)((avg[i] + 0.005) * 100) / 100.f; // 소수점 3째자리에서 반올림.
+			
+			switch((int)avg[i] / 10) {
+			case 10:
+			case  9: grade[i] = 'A'; break;
+			case  8: grade[i] = 'B'; break;
+			case  7: grade[i] = 'C'; break;
+			case  6: grade[i] = 'D'; break;
+			default: grade[i] = 'F'; break;
+			}
+		}// end for i = human
+		
+		
+		
+		
+	}
+}

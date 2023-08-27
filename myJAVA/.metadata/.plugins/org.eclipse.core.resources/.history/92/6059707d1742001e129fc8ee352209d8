@@ -1,0 +1,5 @@
+package jy.java.Exam02;
+
+public class Dog extends Animal {
+
+}

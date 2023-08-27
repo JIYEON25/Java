@@ -1,0 +1,22 @@
+package jy.java.exam13;
+
+class StaticEx {
+	int x;
+	static int y;
+}
+
+public class StaticExTest {
+	public static void main(String[] args) {
+		System.out.println(StaticEx.x); // Error
+		System.out.println(StaticEx.y);
+		StaticEx.y = 100;
+		System.out.println(StaticEx.y); //100
+		StaticEx se = new StaticEx(); // x = 0, y = 0
+		System.out.println(se.x); // 0
+		System.out.println(se.y); // 100 
+		
+		
+		
+		
+	}
+}

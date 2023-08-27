@@ -1,0 +1,19 @@
+package jy.java.exam10;
+
+public class OverloadingEx02 {
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		OverloadingEx02 oe2 = new OverloadingEx02();
+		oe2.getLength(1000);
+		oe2.getLength(3.14f);
+		oe2.getLength("10000");
+		
+	}
+	
+	
+	
+}
