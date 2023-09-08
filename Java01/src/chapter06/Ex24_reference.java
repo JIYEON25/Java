@@ -1,0 +1,22 @@
+package chapter06;
+
+class Data2 {
+	int x;
+}
+public class Ex24_reference {
+	static void change(Data2 d) {
+		d.x = 1000;
+		System.out.println("change() : x = " + d.x);
+	}
+	
+	public static void main(String[] args) {
+		Data2 d = new Data2();
+		d.x = 10;
+		System.out.println("main() : x = " + d.x);
+		
+		change(d);
+		System.out.println("After change(d)");
+		System.out.println("main() : x = " + d.x);
+	}
+
+}
